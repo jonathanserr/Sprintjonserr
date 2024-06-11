@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header{
+    height: 10vh;
+    background-color: aqua;
+    object-fit: contain;
+}
+
+.navbar{
+    height: 10vh;
+    padding: 30px 0px;
+    display: inline-block;
+    width: 85%;
+    vertical-align:text-bottom;
+    margin-left: 20px;
+    }
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+.link{
+    text-decoration: none;
+    color: blue;
+    background-color: yellow;
+    cursor: pointer;
+    /* font-size: 20px; */
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 1vh;
+}
+
+.logobox{
+    display:inline-block;
+    height: 10vh;
+    }
+
+.logo{
+    width: 90px;
+    display:  inline-block;
+}
+
+/* main */
+
+main{
+    min-height: 85vh;
+    background-color: pink;
+}
+main img{
+    width: 200px;
+
+}
+h1{
+    text-align: center;
+    color: yellow;
+    font-size: 300%;
+    padding: 1rem;
+    border-radius: 2px solid black;
+}
+
+h2{
+    text-align: center;
+    font-size: 200%;
+    padding: 0.2rem;
+    color: rgb(39, 208, 81);
+}
+
+h3{
+    text-align: center;
+    font-size: 200%;
+    padding: 0.1rem;
+    color: yellow;
+}
+
+.banner{
+    text-align: center;
+}
+
+.banner img{
+    width: 90vw;
+    height: 200px;
+    object-fit:cover;
+    border-radius: 1em;
+
+}
+
+/* contenedor y imagen */
+
+.container1{
+    width: 100%;
+    margin-top: 7vh;
+}
+.container1 .imgCon1{
+    display: inline;
+    margin-left: 19vh;
+    vertical-align:sub ;
+}
+.container1 .textCon1{
+    width: 40%;
+    display: inline-block;
+    margin-left: 19vh;
+    font-size: 200%;
+    color: blue;
+}
+.container1 .img1{
+    width: 250px;
+}
+
+.container2{
+    width: 100%;
+    margin-top: 7vh;
+}
+.container2 .imgCon2{
+    display: inline;
+    margin-left: 19vh;
+    vertical-align:sub ;
+}
+.container2 .textCon2{
+    width: 40%;
+    display: inline-block;
+    margin-left: 19vh;
+    font-size: 200%;
+    color: blue;
+}
+.container2 .img2{
+    width: 200px;
+
+}
+
+.container3{
+    width: 100%;
+    margin-top: 7vh;
+}
+.container3 .imgCon3{
+    display: inline;
+    margin-left: 19vh;
+    vertical-align:sub ;
+}
+.container3 .textCon3{
+    width: 40%;
+    display: inline-block;
+    margin-left: 19vh;
+    font-size: 200%;
+    color: blue;
+}
+.container3 .img3{
+    width: 200px;
+}
+
+.container4{
+    width: 100%;
+    margin-top: 7vh;
+}
+.container4 .imgCon4{
+    display: inline;
+    margin-left: 19vh;
+    vertical-align:sub ;
+    height: 40%;
+    text-align: center; */
+}
+.container4 .textCon4{
+    width: 40%;
+    display: inline-block;
+    margin-left: 19vh;
+    font-size: 200%;
+    color: blue;
+    display: inline-block; */
+}
+.container4 .img4{
+    width: 200px;
+}
+
+
+.image5{
+    text-align: center;
+    margin-top: 7vh;
+}
+ .img5{
+    width: 400px;
+}
+
+.parrafo{
+    text-align: center;
+    margin-top: 5vh;
+    color: blue;
+}
+.emailphone{
+    text-align: center;
+    margin-top: 4vh;
+}
+.email{
+    color: red;
+    font-size: 20px;
+    display: inline-block;
+    position:absolute;
+    left: 200px;
+}
+.phone{
+    color: red;
+    font-size: 20px;
+    display: inline-block;position:absolute;
+    right: 200px;
+}
+
+.parrafo{
+    font-size: 160%;
+}
+
+/* footer */
+
+footer{
+    height: 5vh;
+    background-color: yellow;
+    color: blue;
+    padding-top: .5rem;
+}
+
+.footer{
+    text-align: center;
+}
