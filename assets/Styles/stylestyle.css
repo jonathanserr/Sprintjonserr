@@ -21,6 +21,17 @@ header{
     margin-left: 20px;
     }
 
+    /* esto es de la lista pag 4 */
+.list{
+    margin: 13vh;
+}
+.list ol{
+    list-style-type: decimal;
+}
+
+
+
+
 nav ul{
     list-style-type: none;
 }
