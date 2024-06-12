@@ -4,68 +4,65 @@
     box-sizing: border-box;
 }
 
-/* header */
+.layout{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+/* header style */
 
 header{
-    height: 10vh;
     background-color: aqua;
-    object-fit: contain;
+    min-height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
 }
 
 .navbar{
     height: 10vh;
-    padding: 30px 0px;
-    display: inline-block;
-    width: 85%;
-    vertical-align:text-bottom;
-    margin-left: 20px;
-    }
-
-    /* esto es de la lista pag 4 */
-.list{
-    margin: 13vh;
-}
-.list ol{
-    list-style-type: decimal;
-}
-
-
-
-
+    width: 60%;
+    align-content: center;
+        }
 nav ul{
     list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+   
+
 }
 
-nav ul li{
-    display: inline-block;
-}
 .link{
     text-decoration: none;
     color: blue;
     background-color: yellow;
     cursor: pointer;
-    /* font-size: 20px; */
     border: 2px solid blue;
     border-radius: 20px;
     padding: 5px;
-    margin: 1vh;
 }
 
 .logobox{
-    display:inline-block;
-    height: 10vh;
-    }
+    width: 12vh;
+}
 
 .logo{
-    width: 90px;
-    display:  inline-block;
+    object-fit: contain;
+    max-width: 99%;
 }
+
+
+
+
+
 
 /* main */
 
 main{
-    min-height: 85vh;
     background-color: pink;
+    flex-grow: 1;
 }
 main img{
     width: 200px;
@@ -227,15 +224,24 @@ h3{
     font-size: 160%;
 }
 
+/* esto es de la lista pag 4 */
+    .list{
+        margin: 13vh;
+    }
+    .list ol{
+        list-style-type: decimal;
+    }
+    
+
 /* footer */
 
 footer{
-    height: 5vh;
+    min-height: 5vh;
     background-color: yellow;
     color: blue;
-    padding-top: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
-.footer{
-    text-align: center;
-}
