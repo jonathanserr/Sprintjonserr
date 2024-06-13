@@ -8,30 +8,27 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    width: 100%;
     justify-content: space-between;
+    
 }
 
 /* header style */
 
 header{
     background-color: aqua;
-    min-height: 12vh;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-around;    
 }
 
 .navbar{
-    height: 10vh;
-    width: 60%;
-    align-content: center;
-        }
-nav ul{
+    
     list-style-type: none;
     display: flex;
-    justify-content:space-between;
-   
-
+    gap:2.5em;
+    width: 80%;
 }
 
 .link{
@@ -39,22 +36,21 @@ nav ul{
     color: blue;
     background-color: yellow;
     cursor: pointer;
-    border: 2px solid blue;
+    border: 3px solid blue;
     border-radius: 20px;
-    padding: 5px;
+    padding: 9px;
+    align-items: flex-end;
+    
+    
 }
 
 .logobox{
-    width: 12vh;
+    max-width: 12vh;
 }
-
 .logo{
     object-fit: contain;
     max-width: 99%;
 }
-
-
-
 
 
 
@@ -63,166 +59,190 @@ nav ul{
 main{
     background-color: pink;
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
-main img{
-    width: 200px;
+.main1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+}
 
-}
-h1{
-    text-align: center;
+.title h1{
     color: yellow;
-    font-size: 300%;
-    padding: 1rem;
-    border-radius: 2px solid black;
+    /* font-style: italic; */
+    width: 50%;
+    text-align: center;
+    font-size: 50px;   
 }
 
 h2{
-    text-align: center;
-    font-size: 200%;
-    padding: 0.2rem;
     color: rgb(39, 208, 81);
+    /* border: 2px solid white; */
+    width: 50%;
+    text-align: center;
+    font-size: 35px;
 }
 
 h3{
-    text-align: center;
-    font-size: 200%;
-    padding: 0.1rem;
+    
     color: yellow;
-}
-
-.banner{
+    width: 50%;
     text-align: center;
+    font-size: 30px;
 }
 
-.banner img{
-    width: 90vw;
-    height: 200px;
-    object-fit:cover;
-    border-radius: 1em;
 
+.bannerbox{
+    width: 100%;
+    height: 20vh;
+    border: 2px solid white;
+}
+.banner{
+    width:100%;
+    height: 100%;
+    object-fit:initial;
+ 
 }
 
 /* contenedor y imagen */
 
+
 .container1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     width: 100%;
-    margin-top: 7vh;
+    height: 40vh;
 }
 .container1 .imgCon1{
-    display: inline;
-    margin-left: 19vh;
-    vertical-align:sub ;
+    width: 30%;
+    height: 100%;
 }
 .container1 .textCon1{
-    width: 40%;
-    display: inline-block;
-    margin-left: 19vh;
-    font-size: 200%;
+    width: 30%;
+    font-size: 180%;
     color: blue;
 }
 .container1 .img1{
-    width: 250px;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
 }
 
 .container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
     width: 100%;
-    margin-top: 7vh;
+    height: 20vh;
 }
 .container2 .imgCon2{
-    display: inline;
-    margin-left: 19vh;
-    vertical-align:sub ;
+    width: 30%;
+    height: 100%;
 }
 .container2 .textCon2{
-    width: 40%;
-    display: inline-block;
-    margin-left: 19vh;
-    font-size: 200%;
+    width: 30%;
+    font-size: 180%;
     color: blue;
 }
 .container2 .img2{
-    width: 200px;
-
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
 }
 
 .container3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     width: 100%;
-    margin-top: 7vh;
+    height: 20vh;
 }
 .container3 .imgCon3{
-    display: inline;
-    margin-left: 19vh;
-    vertical-align:sub ;
+    width: 30%;
+    height: 100%;
 }
 .container3 .textCon3{
-    width: 40%;
-    display: inline-block;
-    margin-left: 19vh;
-    font-size: 200%;
+    width: 30%;
+    font-size: 180%;
     color: blue;
 }
 .container3 .img3{
-    width: 200px;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
 }
 
 .container4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     width: 100%;
-    margin-top: 7vh;
+    height: 20vh;
 }
 .container4 .imgCon4{
-    display: inline;
-    margin-left: 19vh;
-    vertical-align:sub ;
-    height: 40%;
-    text-align: center; */
+    width: 30%;
+    height: 100%;
 }
 .container4 .textCon4{
-    width: 40%;
-    display: inline-block;
-    margin-left: 19vh;
-    font-size: 200%;
+    width: 30%;
+    font-size: 180%;
     color: blue;
-    display: inline-block; */
 }
 .container4 .img4{
-    width: 200px;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
 }
 
-
-.image5{
-    text-align: center;
-    margin-top: 7vh;
+.container5{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 45vh;
 }
- .img5{
-    width: 400px;
+.container5 .imgCon5{
+    width: 45%;
+    height: 100%;
 }
-
-.parrafo{
-    text-align: center;
-    margin-top: 5vh;
-    color: blue;
+.container5 .textcon5{
+    width: 100%;
+    font-size: 180%;
+    color: blue;text-align: center;
+}
+.container5 .img5{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
 }
 .emailphone{
+    width: 100%;
+    display: flex;
     text-align: center;
-    margin-top: 4vh;
+    align-items:center;
+    justify-content: space-around;
 }
 .email{
     color: red;
     font-size: 20px;
-    display: inline-block;
-    position:absolute;
-    left: 200px;
 }
 .phone{
     color: red;
     font-size: 20px;
-    display: inline-block;position:absolute;
-    right: 200px;
 }
 
-.parrafo{
-    font-size: 160%;
-}
 
 /* esto es de la lista pag 4 */
     .list{
@@ -244,4 +264,3 @@ footer{
     justify-content: center;
     align-content: center;
 }
-
