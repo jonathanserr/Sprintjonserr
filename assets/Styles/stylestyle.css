@@ -243,7 +243,32 @@ h3{
     font-size: 20px;
 }
 
+table,tr, td, th{
+    border: 2px solid blue;
+}
 
+table{
+    width: 80%;
+    height: 60vh;
+}
+.table{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+th{
+    color:red;
+    background-color: aquamarine;
+    font-size: xx-large;
+}
+td{
+    color:rgb(82, 255, 47);
+    background-color: rgb(235, 100, 123);
+    font-size:larger;
+}
 /* esto es de la lista pag 4 */
     .list{
         margin: 13vh;
