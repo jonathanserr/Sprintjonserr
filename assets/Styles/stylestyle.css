@@ -67,6 +67,13 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* align-items:; */
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .title{
     display: flex;
@@ -86,8 +93,7 @@ main{
 
 h2{
     color: rgb(39, 208, 81);
-    /* border: 2px solid white; */
-    width: 50%;
+    width: 80%;
     text-align: center;
     font-size: 35px;
 }
@@ -95,7 +101,7 @@ h2{
 h3{
     
     color: yellow;
-    width: 50%;
+    width: 100%;
     text-align: center;
     font-size: 30px;
 }
@@ -104,7 +110,7 @@ h3{
 .bannerbox{
     width: 100%;
     height: 20vh;
-    border: 2px solid white;
+    border: 2px solid greenyellow;
 }
 .banner{
     width:100%;
@@ -243,6 +249,8 @@ h3{
     font-size: 20px;
 }
 
+
+/* table */
 table,tr, td, th{
     border: 2px solid blue;
 }
@@ -267,16 +275,67 @@ th{
 td{
     color:rgb(82, 255, 47);
     background-color: rgb(235, 100, 123);
-    font-size:larger;
+    font-size: x-large;
 }
-/* esto es de la lista pag 4 */
-    .list{
-        margin: 13vh;
-    }
-    .list ol{
-        list-style-type: decimal;
-    }
-    
+
+
+/* list */
+
+.container6{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    height: 30vh;
+    border: 4px solid greenyellow;
+    border-radius: 1.5em;
+    background-color: rgb(235, 100, 123);
+}
+.container6 .image6{
+    width: 30%;
+    height: 100%;
+}
+.container6 .list{
+    width: 40%;
+    font-size: 180%;
+    color: blue;
+}
+.container6 .img6{
+    object-fit::content;
+    width: 100%;
+    height: 100%;
+}
+
+.container7{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    height: 30vh;
+    border: 4px solid greenyellow;
+    border-radius: 1.5em;
+    background-color: rgb(235, 100, 123);
+
+}
+.container7 .image7{
+    width: 30%;
+    height: 100%;
+}
+.container7 .list{
+    width: 40%;
+    font-size: 180%;
+    color: blue;
+}
+.container7 .img7{
+    object-fit: content;
+    width: 100%;
+    height: 100%;
+}
+
+.dl{
+    text-align: center;
+}
+
 
 /* footer */
 
