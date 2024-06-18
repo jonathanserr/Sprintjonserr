@@ -26,6 +26,82 @@
         </header>
         <main>
 
+            <div class="title">
+                <h2>RAFFLE</h2>
+                <h3>You can collaborate to hold an exhibition event and participate in a raffle to win an easel</h3>
+            </div> 
+            <section>
+                <h4>Our location is located at:</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6603.702764045293!2d-118.34296835772388!3d34.15014417136508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bf09218463db%3A0x48fb7ec9a5d6c988!2sWarner%20Bros.%20Studio%20Tour%20Hollywood!5e0!3m2!1ses!2sco!4v1718613783466!5m2!1ses!2sco" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+
+
+            <form action="./show_data.html" method="get">
+
+                <label for="name">
+                     First Name
+                    <input type="text" name="name" id="name" placeholder="Your First Name" required>
+                </label>
+    
+                <label for="lastname">
+                    Last Name
+                    <input type="text" name="lastname" id="lastname" placeholder="Your Last Name" required>
+                </label>
+
+                <label for="">
+                    Choose Meet or Zoom
+                    <select name="Plataform">
+                        <option value="Meet">Meet</option>
+                        <option value="Zoom">Zoom</option>
+    
+                    </select>
+                </label>
+                
+                <label for="">
+                    Choose Date
+                    <input type="date" name="date" id="" placeholder="Date">
+                </label>
+
+
+                <fieldset>
+                    <legend>Payment Options</legend>                            
+                        <label for="">                    
+                            <input type="radio" name="Payment" id="" value="Cash" >
+                            <span class="label">
+                                Cash
+                            </span>
+                        </label>
+                        <label for="">
+                            <input type="radio" name="Payment" id="" value="Credit Card">
+                            <span class="label">
+                                Credit Card
+                            </span>
+                        </label>
+                        <label for="">
+                            <input type="radio" name="Payment" id="" value="Debit Card">
+                            <span class="label">
+                                Debit Card
+                            </span>
+                        </label>
+                </fieldset>
+
+                <label for="">
+                    Message (Optional)
+                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message (optional)"></textarea>
+                </label>
+
+                <label for="">
+                    <input type="checkbox" name="Terms_Cond" id="" required value="Yes" checked>
+                    <span class="label">
+                        I accept terms and conditions ...
+                    </span>
+                </label>
+
+                <button>Send</button>
+
+
+
+            </form>
 
         </main>
         <footer>
